@@ -125,6 +125,7 @@ async function sendMessage() {
 }
 
 function typeResponse(response) {
+  const outputElement = document.getElementById("output");
   // Split the response into an array of characters
   const responseChars = response.text.split("");
 
